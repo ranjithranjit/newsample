@@ -27,7 +27,7 @@ body{
 
 
 .page{
-    /* background-image: url("../images/bg-9.jpg"); */
+    /* background-image: url("./bg-9.jpg"); */
 
 }
 
@@ -361,7 +361,7 @@ marquee{
     height: 150px;
     background: #333;
     margin: auto;
-    background: url(../images/bg-3.jpg);
+    background: url(./bg-3.jpg);
     border-radius: 10px;
     background-size: 100%;
   }
@@ -370,7 +370,7 @@ marquee{
     height: 150px;
     background: #333;
     margin: auto;
-    background: url(../images/bg-7.jpg);
+    background: url(./bg-7.jpg);
     border-radius: 10px;
     background-size: 100%;
   }
@@ -379,7 +379,7 @@ marquee{
     height: 150px;
     background: #333;
     margin: auto;
-    background: url(../images/bg-8.jpg);
+    background: url(./bg-8.jpg);
     background-size: 100%;
     border-radius: 10px;
     position: relative;
@@ -484,7 +484,7 @@ marquee{
     width: 40%;
     height: 80%;
     border-radius: 15px;
-    background: url("../images/bg-5.jpg") no-repeat;
+    background: url("./bg-5.jpg") no-repeat;
     background-size: 110% ;
   }
   .steps-section li{
