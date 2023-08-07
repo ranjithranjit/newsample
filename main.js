@@ -29,7 +29,7 @@ document.getElementById("whatsappLink").addEventListener("click", function() {
     phoneNumber = phoneNumber.replace(/\D/g, '');
     
     // Construct the WhatsApp URL with the phone number and a predefined message (optional)
-    var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=Hello%20from%20my%20website!";
+    var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=Hi!";
     
     // Open the WhatsApp chat window
     window.open(whatsappUrl, '_blank');
