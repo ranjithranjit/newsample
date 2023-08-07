@@ -21,3 +21,19 @@ for (let j = 0; j < questions.length; j++) {
 });
 }
 
+
+document.getElementById("whatsappLink").addEventListener("click", function() {
+    var phoneNumber = "9342813051";
+    
+    // Remove any non-numeric characters from the phone number
+    phoneNumber = phoneNumber.replace(/\D/g, '');
+    
+    // Construct the WhatsApp URL with the phone number and a predefined message (optional)
+    var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=Hello%20from%20my%20website!";
+    
+    // Open the WhatsApp chat window
+    window.open(whatsappUrl, '_blank');
+
+});
+
+
